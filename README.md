@@ -4,7 +4,7 @@
 
 # Intent
 The purpose of this notebook is to practices random forest regresion to predict house price. I will be using the data obtained from kaggle (link kaggle <a href="https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data" target ="_blank">kaggle</a>). <br>
-Upon completion I will have practiced combining train and test, cleaning data, encoding categorical, target transformation, numerical dan ordinal data, splitting train and test dan modelling.
+Upon completion I will have practiced combaining train and test, cleaning data, encoding categorical, target transformation, numerical dan ordinal data, splitting train and test dan modelling.
 
 
 
@@ -96,6 +96,14 @@ Upon completion I will have practiced combining train and test, cleaning data, e
 
 This data has been obtainer from the link below
 
-<a href="https://www.kaggle.com/code/zainhana/predict-house-price/notebook" target= "_blank">https://www.kaggle.com/code/zainhana/predict-house-price/notebook</a>
+<a href="https://www.kaggle.com/code/zainhana/predict-house-price/notebook" target= "_blank">https://www.kaggle.com/code/zainhana/predict-house-price/notebook</a> <br>
+Train shape : (1460, 81) 
+Test shape : (1459, 80) <br>
+
+<img src="img_house_price/different_train_test.png"><br>
+
+# Combaining Test and Train
+<img src="img_house_price/different_train_test.png"><br>
+
 
 
