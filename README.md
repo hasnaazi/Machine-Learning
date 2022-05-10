@@ -4,7 +4,7 @@
 
 # Intent
 The purpose of this notebook is to practices random forest regresion to predict house price. I will be using the data obtained from kaggle (link kaggle <a href="https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data" target ="_blank">kaggle</a>). <br>
-Upon completion I will have practiced combaining train and test, cleaning data, encoding categorical, target transformation, numerical dan ordinal data, splitting train and test dan modelling.
+Upon completion I will have practiced combaining train and test, cleaning data, encoding categorical data, target transformation, scaling, splitting train and test dan modelling.
 
 
 
@@ -104,6 +104,54 @@ Test shape : (1459, 80) <br>
 
 # Combaining Test and Train
 <img src="img_house_price/different_train_test.png"><br>
+after combaining test and train, I have 2919 rows and 79 columns
+
+# Cleaning Data
+* Cheking Null Values
+<img src="img_house_price/null_values.png"><br>
+
+Details of the columns with the highest to lowest null values are displayed according to the graph below. <br>
+<img src="img_house_price/grafik_missing_column.png"><br>
+
+Drop column that has:
+- Alot of null values will not be affect to our model
+- is compined from other columns<br>
+
+The dropped columns are 'Alley','PoolQC','Fence','MiscFeature','FireplaceQu with the percentage of 5 columns with the highest null value.<br>
+If we see, Total BsmtSF is total from 3 other columns ('BsmtFinSF1','BsmtFinSF2','BsmtUnfSF'). So i will drop all of them.
+
+# Label Encoding
+For ordinal columns, I change to number with this code:
+<img src="img_house_price/ordinal_to_number.png"></br>
+
+For empty data in the numeric column, it is filled using mode.
+For empty data in the categorical column, it is filled with 'none'.
+
+Finally the data ready to next step
+<img src="img_house_price/final_cleaning.png"><br>
+
+# Target Transformation
+log transform makes target result more accurate. Comparison of sale prices before and after the log transform process<br>
+<img src="img_house_price/log_target.png">
+
+# Scaling
+Before the scaling process starts, the data is created to get dummies first.
+Scaling made the data have range 0-1
+<img src="img_house_price/scaling.png">
+
+# Splitting train and test
+<img src="img_house_price/split.png">
+
+# Modelling
+<img src="img_house_price/modelling.png">
+
+and it's the final result<br>
+<img src="img_house_price/final_result.png">
+
+
+
+
+
 
 
 
