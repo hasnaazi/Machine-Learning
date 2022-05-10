@@ -148,6 +148,8 @@ Scaling made the data have range 0-1
 and it's the final result<br>
 <img src="img_house_price/final_result.png">
 
+Code details can be checked at the following link <a href="https://www.kaggle.com/code/zainhana/predict-house-price" target="_blank">kaggle</a>
+
 
 
 
