@@ -1,5 +1,14 @@
 # Machine-Learning
 
+# Predict House Price with Random Forest Regression and CSV Result
+
+# Intent
+The purpose of this notebook is to practices random forest regresion to predict house price. I will be using the data obtained from kaggle (link kaggle <a href="https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data" target ="_blank">kaggle</a>). <br>
+Upon completion I will have practiced combining train and test, cleaning data, encoding categorical, target transformation, numerical dan ordinal data, splitting train and test dan modelling.
+
+
+
+# Description of the Data
 |No | Column |   Detail|
 |---|---|---|
 | 1  |SalePrice   | the property's sale price in dollars. This is the target variable that I'm trying to predict.  |
@@ -82,3 +91,11 @@
 |78  | YrSold |  Year Sold  |
 |79  |SaleType  | Type of sale   |
 |80  |  SaleCondition |  Condition of sale   |
+
+# Import the Dataset dan Preview
+
+This data has been obtainer from the link below
+
+<a href="https://www.kaggle.com/code/zainhana/predict-house-price/notebook" target= "_blank">https://www.kaggle.com/code/zainhana/predict-house-price/notebook</a>
+
+
